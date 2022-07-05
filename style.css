@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section{
+    background-image: url(images/donation-hero-beground.jpg);
+    padding: 100px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text{
+    padding: 20px 0px;
+}
+
+h1{
+    font-size: 40px;
+}
+P{
+    font-size: 16px;
+}
+
+H1, p, button{
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0;
+
+}
+
+
+.hero-button{
+    display: flex;
+    justify-content: center;
+}
+.hero-button a{
+    display: inline;
+    padding: 7px 15px;
+    background-color: orangered;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+}
