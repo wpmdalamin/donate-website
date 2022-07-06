@@ -159,6 +159,35 @@ p, span, a{
 .planbox-3{
     background-color: #ffffc9e3;
 }
+.helping-others{
+    display: flex;
+    padding: 0px 10%;
+}
+
+.left-section{
+    width: 40%;
+    padding: 50px 30px;
+    background-color: #fbc988e9;
+    border-radius: 8px 0px 0px 8px;
+}
+.left-section h2{
+    color: #ffffff;
+    font-size: 33px;
+}
+.left-section p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.right-section{
+    width: 40%;
+}
+.right-section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+
 
 
 /***Subscribe-area***/
@@ -193,15 +222,17 @@ p, span, a{
     border: none;
     padding: 10px 18px;
     font-size: 17px;
-    border-radius: 3px;
+    
 }
 .Subscribe-from-box input[type="email"] {
     background-color: #dadadafb;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .Subscribe-from-box input[type="submit"] {
     background: orangered;
     color: whitesmoke;
+    border-radius: 0 8px 8px 0;
 }
 
 
