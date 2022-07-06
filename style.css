@@ -3,14 +3,14 @@ body{
     padding: 0px;
 }
 h1, h2, h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Tahoma, Helvetica, sans-serif;
 }
 p, span, a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
 }
 .hero-section{
     background-image: url(images/donation-hero-beground.jpg);
-    padding: 120px 0;
+    padding: 150px 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,11 +20,13 @@ p, span, a{
 }
 
 .hero-text h1{
-    font-size: 40px;
+    font-size: 44px;
     text-transform: capitalize;
-    font-weight: 900;
+    font-weight: 800;
     color: aliceblue;
     text-align: center;
+    line-height: 55px;
+
 }
 .hero-text P{
     font-size: 16px;
@@ -35,16 +37,15 @@ p, span, a{
 .hero-text H1, p, button{   
     margin: 0px;
     padding: 10px 0;
-
 }
 
-.hero-button{
+.Donate-button{
     display: flex;
     justify-content: center;
 }
-.hero-button a{
+.Donate-button a{
     display: inline;
-    padding: 7px 15px;
+    padding: 10px 20px;
     background-color: orangered;
     color: aliceblue;
     text-decoration: none;
@@ -73,7 +74,7 @@ p, span, a{
     padding: 30px 0px;
 }
 .tk-box{
-    padding: 20px;
+    padding: 30px 22px;
     background-color: #cececedd;
     margin: 0px 10px;
     border-radius: 3px;
@@ -100,17 +101,16 @@ p, span, a{
 }
 
 .donate-tk-input-box input {
-    padding: 5px 50px;
+    padding: 10px 65px;
     text-align: center;
     border-top: none;
     border-right: none;
     border-left: none;
+    font-size: 16px;
+    width: 300px;
+    border-bottom: 1px solid #dddddd;
 }
-.donate-tk-input-box input:active {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
+
 
 .donate-plan-text h2{
     text-align: center;
@@ -136,18 +136,28 @@ p, span, a{
 }
 .donate-plan-box{
     width: 28%;
-    padding: 20px;
+    padding: 40px 20px;
     margin: 0px 1%;
     border-radius: 3px;
 }
+.donate-plan-box h3{
+    margin: 0;
+    font-size: 23px;
+    padding: 15px 0;
+    font-weight: 500;
+}
+.donate-plan-box p{
+    line-height: 22px;
+    color: #2f2f2f;
+}
 .planbox-1{
-    background-color: #e0ffffce;
+    background-color: #e8ffffec;
 }
 .planbox-2{
-    background-color: #ffa07ac8;
+    background-color: #fed4c4c8;
 }
 .planbox-3{
-    background-color: #ffff91bc;
+    background-color: #ffffc9e3;
 }
 
 
@@ -173,20 +183,20 @@ p, span, a{
     width: 50%;
     display: flex;
     justify-content: center;
-    background-color: #f6c0c8c0;
-    padding: 60px 20px;
+    background-color: #f8efb1dd;
+    padding: 70px 20px;
     border-radius: 3px;
     margin: 20px 0;
 
 }
 .Subscribe-from-box input{
     border: none;
-    padding: 8px 18px;
+    padding: 10px 18px;
     font-size: 17px;
-
+    border-radius: 3px;
 }
 .Subscribe-from-box input[type="email"] {
-    background-color: #dddddddb;
+    background-color: #dadadafb;
 }
 
 .Subscribe-from-box input[type="submit"] {
@@ -202,6 +212,7 @@ p, span, a{
 .footer h3{
     color: orangered;
     font-weight: 600;
+    font-size: 28px;
 }
 .footer p{
     color: aliceblue;
