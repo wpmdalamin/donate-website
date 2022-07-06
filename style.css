@@ -141,13 +141,13 @@ p, span, a{
     border-radius: 3px;
 }
 .planbox-1{
-    background-color: lightcyan;
+    background-color: #e0ffffce;
 }
 .planbox-2{
-    background-color: lightsalmon;
+    background-color: #ffa07ac8;
 }
 .planbox-3{
-    background-color: lightgoldenrodyellow;
+    background-color: #ffff91bc;
 }
 
 
@@ -173,7 +173,7 @@ p, span, a{
     width: 50%;
     display: flex;
     justify-content: center;
-    background-color: lightpink;
+    background-color: #f6c0c8c0;
     padding: 60px 20px;
     border-radius: 3px;
     margin: 20px 0;
@@ -186,7 +186,7 @@ p, span, a{
 
 }
 .Subscribe-from-box input[type="email"] {
-    background-color: #dddddd;
+    background-color: #dddddddb;
 }
 
 .Subscribe-from-box input[type="submit"] {
