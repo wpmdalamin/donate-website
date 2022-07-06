@@ -10,7 +10,7 @@ p, span, a{
 }
 .hero-section{
     background-image: url(images/donation-hero-beground.jpg);
-    padding: 100px 0;
+    padding: 120px 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,14 +24,15 @@ p, span, a{
     text-transform: capitalize;
     font-weight: 900;
     color: aliceblue;
+    text-align: center;
 }
 .hero-text P{
     font-size: 16px;
     color: aliceblue;
+    text-align: center;
 }
 
-.hero-text H1, p, button{
-    text-align: center;
+.hero-text H1, p, button{   
     margin: 0px;
     padding: 10px 0;
 
@@ -124,4 +125,52 @@ p, span, a{
     margin: auto;
     font-size: 15px;
     line-height: 25px;
+    text-align: center;
+}
+
+.donate-plan-box-area{
+    display: flex;
+    padding: 50px 10%;
+    justify-content: center;
+    
+}
+.donate-plan-box{
+    width: 28%;
+    padding: 20px;
+    margin: 0px 1%;
+    border-radius: 3px;
+}
+.planbox-1{
+    background-color: lightcyan;
+}
+.planbox-2{
+    background-color: lightsalmon;
+}
+.planbox-3{
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #000000d0;
+    padding: 15px 0;
+}
+.footer h3{
+    color: orangered;
+    font-weight: 600;
+}
+.footer p{
+    color: aliceblue;
+}
+.footer h3,
+.footer p{
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
 }
