@@ -1,7 +1,12 @@
 body{
     margin: 0px;
     padding: 0px;
+}
+h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
+}
+p, span, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero-section{
     background-image: url(images/donation-hero-beground.jpg);
@@ -14,21 +19,23 @@ body{
     padding: 20px 0px;
 }
 
-h1{
+.hero-text h1{
     font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: aliceblue;
 }
-P{
+.hero-text P{
     font-size: 16px;
+    color: aliceblue;
 }
 
-H1, p, button{
-    color: aliceblue;
+.hero-text H1, p, button{
     text-align: center;
     margin: 0px;
     padding: 10px 0;
 
 }
-
 
 .hero-button{
     display: flex;
@@ -43,4 +50,78 @@ H1, p, button{
     border-radius: 6px;
     font-size: 18px;
     font-weight: 400;
+}
+/*** donate-today section ***/
+.donate-today{
+    padding: 100px 0px;
+}
+.donate-today-text h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px;
+    padding-bottom: 20px;
+    color: #161616;   
+}
+.donate-today-text p{
+    color: black;
+}
+.donate-tk-box{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.tk-box{
+    padding: 20px;
+    background-color: #cececedd;
+    margin: 0px 10px;
+    border-radius: 3px;
+}
+
+.tk-box span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #5e5e5e;
+}
+.active{
+    border: 1px solid orangered;
+    background-color: #f8bb94;
+    box-sizing: border-box;
+}
+.active span{
+    color: orangered;
+}
+
+.donate-tk-input-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.donate-tk-input-box input {
+    padding: 5px 50px;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.donate-tk-input-box input:active {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.donate-plan-text h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px;
+    padding-bottom: 20px;
+    color: #161616;
+}
+.width-half-pera{
+    width: 45%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 25px;
 }
